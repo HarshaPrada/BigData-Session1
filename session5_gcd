@@ -1,0 +1,19 @@
+package conf.test
+
+class test{
+ 
+ def gcd (a:Int, b:Int): Int = {
+   if(b==0) 
+     a;
+   else 
+     gcd(b,a%b);
+   
+ }
+}
+
+object MainObject{  
+    def main(args: Array[String]){  
+       var s = new test
+       println(s.gcd(9, 8))
+    }  
+} 
