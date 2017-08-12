@@ -1,0 +1,25 @@
+package conf.test
+
+import scala.collection.immutable._
+
+
+
+class test{  
+  
+  def set () {
+  var hashset = HashSet(5,6,7,8) 
+  
+hashset.foreach((number:Int) => println(number +""))  
+  }
+
+}  
+  
+
+  
+object MainObject{  
+    def main(args:Array[String]){  
+       var s = new test
+       s.set()
+       
+    }  
+}  
